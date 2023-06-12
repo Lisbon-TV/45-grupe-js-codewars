@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "abbreviateTwoWords": "nodemon ./codewars/abbreviate-a-two-word-name.js",
     "multiplicationTable1": "nodemon ./codewars/multiplication-table-for-number1.js",
     "multiplicationTable": "nodemon ./codewars/multiplication-table-for-number.js",
     "onlyOne": "nodemon ./codewars/you-only-need-one.js",
