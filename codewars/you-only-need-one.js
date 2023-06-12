@@ -109,7 +109,10 @@ Consclutsion: use const over let and over var!
 almost never use var, better change your design and use let and const!
 
 egz. hoisting!
-
+// javasript takes your code that defines a function,
+// and brings it up automatically for you! 
+--> it's only functions and vars that get hosted to the top and the code is still working!
+--> arrow functions and const won't be hoisted!
 
 
 */
