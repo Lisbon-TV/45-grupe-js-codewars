@@ -113,8 +113,14 @@ egz. hoisting!
 // and brings it up automatically for you! 
 --> it's only functions and vars that get hosted to the top and the code is still working!
 --> arrow functions and const won't be hoisted!
+--> however, when var is hoisted to the top, it's hoisted with the value -> undefined! 
+as egz. below:
 
+var a = 'undefined';
+console.log(a);
+a=2;
 
+therefore, best to use let and const instead! but can appear in the interviews!
 */
 
 
