@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "multiplicationTable1": "nodemon ./codewars/multiplication-table-for-number1.js",
+    "multiplicationTable": "nodemon ./codewars/multiplication-table-for-number.js",
     "onlyOne": "nodemon ./codewars/you-only-need-one.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
