@@ -28,3 +28,25 @@ console.log(check(['t', 'e', 's', 't'], 'e'), '->', true);
 console.log(check(['what', 'a', 'great', 'kata'], 'kat'), '->', false);
 // sitas ciklas jei nuo pradzios iki pabaigos... nereikia toliau eiti... 
 console.log(check([1, 0, 0, 0, 0, 0, 0, 0], 1), '->', true);
+
+// Other solutions:
+
+const check3 = (a,x) => a.includes(x);
+
+function check4(a,x){
+    return a.includes(x);
+  };
+
+function check5(a,x){
+    return a.indexOf(x) > -1 ? true : false;
+  };
+
+function check6(a,x){
+    return a.indexOf(x) > -1;
+  };
+  
+const check7 = (a, x) =>
+  a.some(val => val === x);
+
+const check8 = (array, value) => !!~array.indexOf(value);
+
