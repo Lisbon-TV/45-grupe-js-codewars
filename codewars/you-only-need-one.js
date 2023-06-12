@@ -33,10 +33,17 @@ console.log(check([1, 0, 0, 0, 0, 0, 0, 0], 1), '->', true);
 
 const check3 = (a,x) => a.includes(x);
 
+
+// review: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+// nesuprantu - klausti mentoriaus? Kaip naudotis puslapiu!
+
 function check4(a,x){
     return a.includes(x);
   };
 
+// indexOf   rodo buten ta reiskme in array... 
+// neaisku > -1 ? 
+// neaisku true : false 
 function check5(a,x){
     return a.indexOf(x) > -1 ? true : false;
   };
@@ -49,4 +56,20 @@ const check7 = (a, x) =>
   a.some(val => val === x);
 
 const check8 = (array, value) => !!~array.indexOf(value);
+
+
+// var is used within the scope of a function, 
+// but may match same variable withing the windows 
+// not the best usage! We don't know further use of var variable in coding! 
+// if matched further, it can override and cause issues! 
+// In this closed excample, it's OK to use var!
+function check9(a, x) {
+    let check = false
+    for(var j in a){
+        if(a[j] == x){
+          check = true
+        }
+    }
+    return check
+  }
 
