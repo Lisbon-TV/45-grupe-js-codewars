@@ -59,7 +59,8 @@ const check8 = (array, value) => !!~array.indexOf(value);
 
 // used to be one key variable in js, which was var
 // let and const is a block variable;
-// var is used within the scope of a function, as with loops, but not outside!
+// var is used within the scope of their function, as with loops, 
+// but not outside! also the global scope
 // but may match same variable within the windows 
 // not the best usage! We don't know further use of var variable in coding! 
 // if matched further, it can override and cause issues! 
@@ -107,6 +108,7 @@ console.log(constVar);
 Consclutsion: use const over let and over var!
 almost never use var, better change your design and use let and const!
 
+egz. hoisting!
 
 
 
