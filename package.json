@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sumOfPositives": "nodemon ./codewars/codewars-sum-of-positives.js",
     "needOne": "nodemon ./codewars/you-only-need-one-beginner.js",
     "planetName": "nodemon ./codewars/get-planet-name-by-id.js",
     "arrayDiff": "nodemon ./codewars/array.diff.js",
