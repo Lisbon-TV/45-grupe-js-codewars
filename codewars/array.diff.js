@@ -41,10 +41,6 @@ console.log(arrayDiff([1,2,3], [1,2]), [3], "a was [1,2,3], b was [1,2]")
 //   }
 
 
-//   function arrayDiff(a, b) {
-//     return a.filter(x => !b.includes(x));
-//   }
-
 //   var array_diff = (a, b) => a.filter(item => b.indexOf(item) < 0)
 
 //   function array_diff(a, b) {
