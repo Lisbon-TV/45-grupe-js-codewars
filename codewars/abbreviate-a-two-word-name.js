@@ -1,10 +1,11 @@
 console.clear();
 
+let name = 'Two Words';
+
 function abbrevName(name){
-
-    // code away
-
-}
+    let [first, last] = name.split(' ');
+    return first[0].toUpperCase() + '.' + last[0].toUpperCase();
+  }
 
 // maybe?
 // function inicialai(vardas, pavarde) {
@@ -19,7 +20,18 @@ function abbrevName(name){
 
 
 console.log(abbrevName("Sam Harris"), "S.H");
-console.log(abbrevName("Patrick Feenan"), "P.F");
-console.log(abbrevName("Evan Cole"), "E.C");
-console.log(abbrevName("P Favuzzi"), "P.F");
-console.log(abbrevName("David Mendieta"), "D.M");
+// console.log(abbrevName("Patrick Feenan"), "P.F");
+// console.log(abbrevName("Evan Cole"), "E.C");
+// console.log(abbrevName("P Favuzzi"), "P.F");
+// console.log(abbrevName("David Mendieta"), "D.M");
+
+// Other solutions: 
+
+// function abbrevName(name){
+
+//     return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+
+// }
+
+// const abbrevName = name => name.match(/\b\w/g).join('.').toUpperCase()
+
