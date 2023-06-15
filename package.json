@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "planetName": "nodemon ./codewars/get-planet-name-by-id.js",
     "arrayDiff": "nodemon ./codewars/array.diff.js",
     "divisibleByNumber": "nodemon ./codewars/find-nunbers-that-are-divisible-by-given-number.js",
     "abbreviateTwoWords": "nodemon ./codewars/abbreviate-a-two-word-name.js",
