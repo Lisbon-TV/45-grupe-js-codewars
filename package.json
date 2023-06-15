@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "isItEven": "nodemon ./codewars/is-it-even.js",
     "arrayMadness": "nodemon ./codewars/speedCode-#2-array-madness.js",
     "sumOfPositives": "nodemon ./codewars/codewars-sum-of-positives.js",
     "needOne": "nodemon ./codewars/you-only-need-one-beginner.js",
