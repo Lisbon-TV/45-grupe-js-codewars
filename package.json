@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "oldestYoungest": "nodemon ./codewars/find-the-difference-in-age-between-oldest-and-youngest-family-nembers.js",
     "polishAbc": "nodemon ./codewars/polish-alphabet.js",
     "isItEven": "nodemon ./codewars/is-it-even.js",
     "arrayMadness": "nodemon ./codewars/speedCode-#2-array-madness.js",
