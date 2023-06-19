@@ -10,12 +10,18 @@ Note: You can expect all of the inputs to be the same length.
 */
 
 function tripleTrouble(one, two, three){
-    //Solution
-   }
+        let output =[];
+        for(let i = 0; i < one.length; i++){
+          output.push(one[i]);
+          output.push(two[i]);
+          output.push(three[i]);
+        }
+        return output.join('');
+       }
 
 
-// console.log(tripleTrouble("aaa","bbb","ccc"), "abcabcabc");
-// console.log(tripleTrouble("aaaaaa","bbbbbb","cccccc"), "abcabcabcabcabcabc");
-// console.log(tripleTrouble("burn", "reds", "roll"), "brrueordlnsl");
-// console.log(tripleTrouble("Sea","urn","pms"), "Supermans"); 
-// console.log(tripleTrouble("LLh","euo","xtr"), "LexLuthor");
+console.log(tripleTrouble("aaa","bbb","ccc"), "abcabcabc");
+console.log(tripleTrouble("aaaaaa","bbbbbb","cccccc"), "abcabcabcabcabcabc");
+console.log(tripleTrouble("burn", "reds", "roll"), "brrueordlnsl");
+console.log(tripleTrouble("Sea","urn","pms"), "Supermans"); 
+console.log(tripleTrouble("LLh","euo","xtr"), "LexLuthor");
