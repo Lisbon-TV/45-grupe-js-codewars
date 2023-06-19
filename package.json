@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "trippleTrouble": "nodemon ./codewars/tripple-trouble.js",
     "underPressure": "nodemon ./codewars/you-can't-code-under-pressure-#1.js",
     "bartenderDrinks": "nodemon ./codewars/l1-bartender.drinks.js",
     "survive": "nodemon ./codewars/is-he-gonna-survive.js",

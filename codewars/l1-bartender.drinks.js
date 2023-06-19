@@ -57,6 +57,7 @@ console.log
 
 // Other Solutions:
 
+// much better!
 const drinks = {
     "jabroni": "Patron Tequila",
     "school counselor": "Anything with Alcohol",
